@@ -1,0 +1,40 @@
+
+
+.life section {
+  // background-color: yellow;
+  // width: 15px;
+  // height: 15px;
+  width: 25px;
+  height: 25px;
+  display: block;
+  border-radius: 50%;
+  background-color: black;
+  float: left;
+  margin: 0 10px;
+  background-image: linear-gradient(180deg, transparent 50%, yellow 50%),
+    linear-gradient(90deg, #ffff00 50%, transparent 50%);
+}
+
+.life{
+  margin: 12px 20px;
+}
+
+footer {
+  width: 418px;
+  height: 50px;
+  margin-top: -4px;
+  background-color: black;
+}
+
+.score,
+.life,
+.level {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.score,
+.level {
+  color: chartreuse;
+}
